@@ -21,3 +21,12 @@ We will get :
 - Atmospheric Pressure
 - Relative Humidity
 
+## Topic and payload
+/ET/
+
+
+```Payload format:JSON
+{"Timestamp":"1455921413284",
+  "Reading":{"Level":"0x0000","Pressure":"0x0000","aux2":"0x0000","aux3":"0x0000"},"State":{"Temp":"23.5","Humid":"50.0","Atmpress":"1023","HeadTemp":"15.0"}}
+```
+
