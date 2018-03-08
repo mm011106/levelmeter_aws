@@ -27,7 +27,7 @@ We will get :
 - ET/EH-20/{siteID}/read : from edge deivce (subscribed by AWS side)
 - ET/EH-20/{siteID}/command : to edge device (pulished by AWS or other applications)
 
-payload for 'read' topic:
+### payload for 'read' topic:
 
 ```Payload format:JSON
 {"Timestamp":"1455921413284",
@@ -46,7 +46,7 @@ payload for 'read' topic:
   }
 ```
 
-payload for 'command' topic:
+### payload for 'command' topic:
 
-___ UNDER CONSTRUCTION ____
+__ UNDER CONSTRUCTION ___
 
