@@ -23,9 +23,10 @@ We will get :
 - Temperature of head of cryostat (for future use)
 
 ## Topic and payload
-/ET/
+ET/EH-20/{siteID}/read : from edge deivce (subscribed by AWS side)
+ET/EH-20/{siteID}/command : to edge device (pulished by AWS or other applications)
 
-
+payload for 'read' topic:
 ```Payload format:JSON
 {"Timestamp":"1455921413284",
   "Reading":{
@@ -42,4 +43,7 @@ We will get :
       }
   }
 ```
+
+payload for 'command' topic:
+___ UNDER CONSTRUCTION ____
 
