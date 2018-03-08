@@ -4,7 +4,7 @@ Iot Device for the level meter. AWS version
 milkcocoaでやっていた内容をAWSに移します。
 そのためのエッジデバイス側アプリです。
 
-## device
+## Hardware
 Raspberry Pi + AD converter(MCP3208 12bit, 4ch, SPI) + Environmental sensor (BME280 I2C)
 
 ## Use
@@ -14,11 +14,10 @@ Raspberry Pi + AD converter(MCP3208 12bit, 4ch, SPI) + Environmental sensor (BME
 ## Which information we can get from this device
 We will get :
 - L-He Level of cryostat
-- Container puressure
-- External voltage input (for futer use: exhust gas temperature monitor)
-- External voltage input (for somthing important)
-- Environmental Temperature
-- Atmosphia pressure
+- Container pressure
+- External voltage input (for future use: exhaust gas temperature monitor)
+- External voltage input (for something important)
+- Ambient Temperature
+- Atmospheric Pressure
 - Relative Humidity
-
 
