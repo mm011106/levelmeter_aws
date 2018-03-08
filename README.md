@@ -27,6 +27,8 @@ We will get :
 - ET/EH-20/{siteID}/read : from edge deivce (subscribed by AWS side)
 - ET/EH-20/{siteID}/command : to edge device (pulished by AWS or other applications)
 
+_{siteID}:Unique ID number for the deploied devices_
+
 ### payload for 'read' topic:
 
 ```Payload format:JSON
