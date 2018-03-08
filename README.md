@@ -20,6 +20,7 @@ We will get :
 - Ambient Temperature
 - Atmospheric Pressure
 - Relative Humidity
+- Temperature of head of cryostat (for future use)
 
 ## Topic and payload
 /ET/
