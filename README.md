@@ -48,5 +48,6 @@ We will get :
 
 ### payload for 'command' topic:
 
-__ UNDER CONSTRUCTION ___
+__UNDER CONSTRUCTION__
+
 
