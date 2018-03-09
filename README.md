@@ -66,4 +66,36 @@ _{siteID} : Unique ID number of each deploied device_
 
 __UNDER CONSTRUCTION__
 
+## configuration files
+### connection parameters
 
+- AWS endpoint url
+- path to the rootCA
+- path to the certificate
+- path to the key
+- siteID=clientid on AWS IoT
+- useWebsocket
+
+connectConf.json
+``` JSON
+{
+    "endpoint":"xyz.iot.us-west-2.amazonaws.com",
+    "rootCAPath":"./root-CA.crt",
+    "certificatePath":"./hoge.cert.pem",
+    "privateKeyPath":"./hoge.private.key",    
+    "siteID":"123456",
+    "useWebsocket":False
+}
+```
+
+### Topic parameters
+- topic
+- operation mode
+
+topicConf.json
+``` JSON
+{
+    "topic":"hoge/hogu/hogo",
+    "mode":"both"
+}
+```
