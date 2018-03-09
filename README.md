@@ -24,15 +24,29 @@ We will get :
 
 ## Topic and payload
 
-- ET/EH-20/{siteID}/read : from edge deivce (subscribed by AWS side)
-- ET/EH-20/{siteID}/command : to edge device (pulished by AWS or other applications)
+- __ET/EH-20/{siteID}/id__ : from edge device 
+- __ET/EH-20/{siteID}/read__ : from edge deivce (subscribed by AWS side)
+- __ET/EH-20/{siteID}/command__ : to edge device (pulished by AWS or other applications)
 
-_{siteID}:Unique ID number for the deploied devices_
+_{siteID} : Unique ID number of each deploied device_
+
+
+### Payload for 'id' topic:
+
+```JSON
+{
+	"IP":"123.123.123.123",
+	"siteID":"123456",
+	"Timestamp":"1455921413284"
+  }
+```
+
 
 ### payload for 'read' topic:
 
-```Payload format:JSON
-{"Timestamp":"1455921413284",
+``` JSON
+{
+  "Timestamp":"1455921413284",
   "Reading":{
       "Level":"0x0000",
       "Pressure":"0x0000",
