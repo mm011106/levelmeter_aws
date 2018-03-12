@@ -84,7 +84,7 @@ connectConf.json
     "certificatePath":"./hoge.cert.pem",
     "privateKeyPath":"./hoge.private.key",    
     "siteID":"123456",
-    "useWebsocket":False
+    "useWebsocket":false
 }
 ```
 
